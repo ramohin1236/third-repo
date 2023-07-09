@@ -9,7 +9,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: url("/images/banner/banner3.png");
+    background-image: url("images/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -105,7 +105,7 @@ h3 {
     height: 300px;
     align-items: center;
     background-image: linear-gradient(to left, rgba(101, 115, 193, 0.0), rgba(55, 134, 212, 0.73)),
-        url('/images/watch.png');
+        url('images/watch.png');
      margin-left: 450px;
     margin-top: 136px;
     margin-bottom: 130px;
