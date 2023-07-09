@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-image: url("/images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 810px;
+}
+
+.banner-container {
+
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    padding: 216px 230px 200px 845px;
+
+}
+
+.banner-titel {
+    font-size: 65px;
+}
+
+.banner-p {
+    font-family: sans-serif;
+    margin-top: 24px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+button {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* failure css */
+ul {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: green;
+    font-family: sans-serif;
+
+}
+
+.failure-p {
+    color: #444343;
+    font-family: sans-serif;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h3 {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p {
+    color: #737272;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* foot banner secctionn */
+.foot-banner {
+    width: 1140px;
+    height: 300px;
+    align-items: center;
+    background-image: linear-gradient(to left, rgba(101, 115, 193, 0.0), rgba(55, 134, 212, 0.73)),
+        url('/images/watch.png');
+     margin-left: 450px;
+    margin-top: 136px;
+    margin-bottom: 130px;
+    border-radius: 8px;
+    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172,) 100%); */
+
+
+}
+
+.always {
+    padding: 59px 617px 24px 64px;
+}
+
+.call {
+    margin: 0px 0px 59px 64px;
+}
+
+/* footer */
+.footer {
+    width: full;
+    height: 577px;
+    background: #151414;
+    color: #FFF;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    /* padding: 10px 15px 5px 3px; */
+    width: 325px;
+    height: 64px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    margin-bottom: 12px
+    
+}
